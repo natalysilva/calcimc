@@ -6,13 +6,9 @@ function Registrar(){
 
     var resultado=document.getElementById("tabela");
     
-
-    var imcp=0;
-    var imcalt=0;
     altura=parseFloat(altura);
     peso=parseFloat(peso);
     
-    var divalt=parseFloat(imcalt/100);
-    var imc=number(imcp/(imcalt*imcalt));
-    }
-    
+    var divalt=parseFloat(altura/100);
+    var imc=number(peso/(altura*altura));
+}
